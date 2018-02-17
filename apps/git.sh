@@ -1,7 +1,5 @@
 #!/bin/bash
 
-
-
 echo "Instaling git ..."
 sudo apt-get install git
 
