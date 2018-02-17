@@ -1,5 +1,7 @@
 #!/bin/bash
-echo "Desinstalando programas..."
+
+echo "Remove default apps..."
+
 #sudo apt-get remove brasero
 sudo apt-get --yes --force-yes --purge remove brasero  > /dev/null 2>&1
 sudo apt-get --yes --force-yes autoremove brasero  > /dev/null 2>&1

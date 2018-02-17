@@ -1,7 +1,7 @@
 #!/bin/sh
 echo "Install JDK 8..."
 sudo mkdir -p /usr/lib/jvm/ > /dev/null 2>&1
-sudo tar -C /usr/lib/jvm/ -xvf /cdrom/apps/app/jdk-8u66-linux-x64.tar.gz > /dev/null > /dev/null 2>&1
+sudo tar -C /usr/lib/jvm/ -xvf /cdrom/JDK/jdk-8u66-linux-x64.tar.gz > /dev/null > /dev/null 2>&1
 sudo update-alternatives --install "/usr/bin/java" "java" "/usr/lib/jvm/jdk1.8.0_66/bin/java" 1 > /dev/null 2>&1
 sudo update-alternatives --install "/usr/bin/javac" "javac" "/usr/lib/jvm/jdk1.8.0_66/bin/javac" 1 > /dev/null 2>&1
 sudo update-alternatives --install "/usr/bin/javaws" "javaws" "/usr/lib/jvm/jdk1.8.0_66/bin/javaws" 1 > /dev/null 2>&1

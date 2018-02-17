@@ -1,12 +1,12 @@
 #!/bin/bash
 
-#sudo apt-get install git
 
-echo "Instalando git ..."
-sudo dpkg -i /cdrom/programas/app/git/*.deb
 
-git config --global user.name "Wikel"
-git config --global user.email "hola@grr.la"
+echo "Instaling git ..."
+sudo apt-get install git
+
+git config --global user.name "name_user"
+git config --global user.email "my_email@gmail.com"
 
 git config --global credential.helper store
 git config --global credential.helper 'cache --timeout=86400'
